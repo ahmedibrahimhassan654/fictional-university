@@ -33,7 +33,7 @@ while (have_posts()) {
 
 <?php }
 
-
+echo paginate_links()
 ?>
 </div>
 <?php get_footer(  );
