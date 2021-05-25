@@ -1110,7 +1110,7 @@ version:1.0
     }
   .main-navigation .current-menu-item a,
   .main-navigation a:hover {
-    color:yellow;
+    color:chartreuse;
   }
   .page-banner {
     background-color: #000;
