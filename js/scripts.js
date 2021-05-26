@@ -1,5 +1,6 @@
-import "../css/style.css"
-
+// import "../css/style.css"
+import $ from 'jquery'
+import slick from 'slick-carousel'
 // Our modules / classes
 import MobileMenu from "./modules/MobileMenu"
 import HeroSlider from "./modules/HeroSlider"
@@ -9,7 +10,10 @@ import HeroSlider from "./modules/HeroSlider"
 var mobileMenu = new MobileMenu()
 var heroSlider = new HeroSlider()
 
-// Allow new JS and CSS to load in browser without a traditional page refresh
-if (module.hot) {
-  module.hot.accept()
-}
+
+
+// // Allow new JS and CSS to load in browser without a traditional page refresh
+// if (module.hot) {
+//   module.hot.accept()
+// }
+// alert('hello this is the test')
